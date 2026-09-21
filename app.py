@@ -1,5 +1,5 @@
 #This code is from the TrainWithShubham
-
+#Flask app
 from flask import Flask, render_template
 app= Flask(__name__)
 
