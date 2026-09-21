@@ -1,4 +1,4 @@
-#Github Actions Pratice
+# GitHub Actions Practice
 
 ##  Concepts
 ## 1. Workflow
