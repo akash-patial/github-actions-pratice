@@ -1,0 +1,23 @@
+# Workflow
+# Should have Name
+
+name: Hello
+
+on:
+  workflow_dispatch:
+  
+# Job
+# Should be inside the workflow
+
+jobs:
+  say-hello:
+    runs-on: ubuntu:lastest
+    steps:
+      - name: Say hello to everyone
+        run: echo "Hello Dosto" 
+  
+# Steps
+# Should be inside the Job
+
+# Actions
+# Should be inside the Job
