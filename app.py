@@ -1,4 +1,4 @@
-#This code is from the TrainWithShubham.com
+#This code is from the TrainWithShubham
 #Flask App
 from flask import Flask, render_template
 app = Flask(__name__)
