@@ -9,16 +9,19 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Checkout/clone the code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       
       - name: Install Linter
         run: pip install ruff
 
-      - name: Run Ruff
-        run: ruff check . --fix
+      - name: Checking the code
+        run: ruff check . 
       
       - name: checking the code
-        run: ruff check .
+        run: ruff check . --fix
+        
+      - name: Checking the code again
+        run: ruff check . 
       
   
   
